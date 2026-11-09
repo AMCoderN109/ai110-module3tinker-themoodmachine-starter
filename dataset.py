@@ -23,6 +23,10 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "hopeful",
+    "sick",
+    "wicked",
+    "fire",
 ]
 
 NEGATIVE_WORDS = [
@@ -92,3 +96,18 @@ TRUE_LABELS = [
 #
 # Remember to keep them aligned:
 #   len(SAMPLE_POSTS) == len(TRUE_LABELS)
+
+SAMPLE_POSTS.append("No, really, I'm totally fine with changing the design for the fifth time today")
+TRUE_LABELS.append("negative")
+
+SAMPLE_POSTS.append("Honestly? It's fine i guess, no big deal.")
+TRUE_LABELS.append("mixed")
+
+SAMPLE_POSTS.append("Well, that was certainly an event.")
+TRUE_LABELS.append("mixed")
+
+SAMPLE_POSTS.append("This new album is absolute filth, I've had it on repeat all day 🔊🔥")
+TRUE_LABELS.append("positive")
+
+SAMPLE_POSTS.append("Left no crumbs on that presentation! 💅✨")
+TRUE_LABELS.append("positive")
